@@ -1,0 +1,583 @@
+/* Body styling */
+body {
+    width: 1440px;
+    height: 1170px;
+    /* box-sizing: border-box; */
+    background-color: #f5f8fa;
+    border: 2px solid gold;
+    margin: 0;
+}
+
+/* Header styling */
+.header {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    width: 1360px;
+    height: 73px;
+    display: flex;
+    border-bottom: 2px solid #e0e6ea;
+}
+
+/* Logo styling within the header */
+.header img {
+    width: 200px;
+    height: 39px;
+}
+
+/* Main header styling */
+header {
+    flex: 2;
+}
+
+/* Navigation styling */
+nav {
+    flex: 1;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 476px;
+    height: 40px;
+}
+
+/* Header navigation list styling */
+#header-navigation ul {
+    list-style: none;
+    display: flex;
+    width: 476px;
+    height: 40px;
+    padding: 0;
+    margin-right: 0px;
+}
+
+/* Header navigation item styling */
+#header-navigation ul {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 0;
+    letter-spacing: -0.01px;
+}
+
+/* Individual header navigation item styling */
+#header-navigation li {
+    flex: 1;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Anchor styling within the header navigation */
+#header-navigation a {
+    text-decoration: none;
+    padding: 0px;
+    color: #1d2c3c;
+}
+
+/* Styling for the last item in header navigation */
+#header-navigation ul li:last-child a {
+    width: 91px;
+    line-height: 40px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #646e7a;
+    border-radius: 5px;
+}
+
+/* Checkout panel styling */
+.checkout-panel {
+    position: absolute;
+    top: 186px;
+    left: 262px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 892px;
+    height: 845px;
+    border-radius: 0 6px 6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Paragraph styling within checkout panel */
+.checkout-panel > p {
+    
+    width: 80%;
+    line-height: 17px;
+    font-size: 14px;
+    color: #636b6f;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+/* Heading styling within basic-info and payment-info */
+#basic-info h3,
+#payment-info h3 {
+    width: 286px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+/* Strong element styling within heading */
+h3 > strong {
+    border: 2px solid #548bc5;
+    color: #548bc5;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Checkout container styling */
+.checkout {
+    
+    
+    width: 892px;
+    height: 795px;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+    background-color: #fff;
+    display: flex;
+}
+
+/* Checkout container content styling */
+#checkout {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+/* Styling for div elements within checkout container */
+#checkout div {
+    margin-top: 37px;
+}
+
+/* Styling for checkout header h1 element */
+#checkout-header h1 {
+    width: 161px;
+    height: 54px;
+    font-size: 30px;
+    line-height: normal;
+    color: #1d2c3c;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Styling for checkout header */
+#checkout #checkout-header {
+    border-bottom: 2px solid #f5f7fa;
+    height: 80px;
+    padding-left: 50px;
+    flex-grow: 0;
+}
+
+/* Styling for basic-info section */
+#checkout #basic-info {
+    height: 221px;
+    padding-left: 50px;
+    border-bottom: 2px solid #f5f7fa;
+    
+}
+
+/* Styling for input elements within basic-info */
+#basic-info div input {
+    
+    padding: 12px 10px;
+    margin: 5px 0;
+    border: 2px solid #edeff2;
+    border-radius: 4px;
+    background-color: #edeff2;
+}
+
+/* Styling for first-name and last-name sections */
+#basic-info #firstName,
+#basic-info #lastName {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    flex: 1;
+    
+    
+}
+#basic-info #firstName input,
+#basic-info #lastName input {
+    width: 227px;
+    height: 100px;
+    box-sizing: border-box;
+    height: 36px;
+    
+    
+    
+    /* line-height: 36px; */
+}
+
+/* Styling for labels within first-name and last-name */
+#firstName label,
+#lastName label {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+/* Styling for first-last section */
+#basic-info #first-last {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 514px;
+}
+
+/* Styling for email section */
+div #email {
+    margin-top: 10px;
+}
+
+/* Styling for label within email section */
+#email label {
+    display: flex;
+    width: 187px;
+}
+
+/* Styling for email input section */
+#basic-info div #email {
+    display: flex;
+    box-sizing: border-box;
+    height: 36px;
+    flex-direction: column;
+    margin-bottom: 41px;
+    width: 370px;
+}
+
+/* Styling for payment-info section */
+#checkout #payment-info {
+    border-bottom: 2px solid #f5f7fa;
+    height: 154px;
+    padding-left: 50px;
+}
+
+/* Styling for card section within payment-info */
+#payment-info #card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 484px;
+}
+
+/* Styling for card-input section within payment-info */
+#payment-info #card-input {
+    display: flex;
+    margin: 0;
+    margin-top: 5px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #edeff2;
+    border-radius: 4px;
+    padding: 0px;
+    align-items: center;
+}
+
+/* Styling for input elements within card-input section */
+#card-input input {
+    box-sizing: border-box;
+    border: 2px solid #edeff2;
+    border-radius: 4px;
+    flex: 3;
+    width: 90px;
+    height: 36px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    background-color: #edeff2;
+}
+
+/* Styling for last two input elements within card-input section */
+#card-input input:nth-child(2),
+#card-input input:last-child {
+    display: flex;
+    flex: 0.5;
+    border: 2px solid #edeff2;
+    width: 100%;
+    margin-left: 10px;
+    text-align: right;
+    height: 36px;
+    align-items: center;
+}
+
+/* Styling for label within card section */
+#payment-info #card label {
+    width: 187px;
+    height: 17px;
+    margin-bottom: 5px;
+}
+
+/* Styling for button section within checkout */
+#checkout #button {
+    width: 483px;
+    height: 146.1px;
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for button container */
+#button {
+    line-height: 20px;
+}
+
+/* Styling for input element within button */
+#button input {
+    border-radius: 5px;
+    border: 2px solid #038e7d;
+    background-color: #038e7d;
+    width: 483px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.396px;
+}
+
+/* Styling for paragraph within button */
+#button p {
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+/* Styling for image within paragraph */
+#button p > img {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+/* Styling for the checkout sidebar */
+#checkout-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 312px;
+    flex-basis: 24.45%;
+    background-color: #1179bf;
+    color: #fff;
+    border-radius: 0px 6px 6px 0px;
+}
+
+/* Styling for the sidebar within the checkout sidebar */
+#checkout-sidebar #sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 610px;
+    margin-top: 42px;
+}
+
+/* Styling for elements within the sidebar */
+#sidebar div {
+}
+
+/* Styling for the quote section within the sidebar */
+#sidebar #quote {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 229px;
+    height: 196px;
+    margin-top: 41px;
+    padding-top: 43px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2005);
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+/* Styling for text within the quote section */
+#quote p {
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 17px;
+    height: 96px;
+}
+
+/* Styling for the image within the quote section */
+#quote #quote-img {
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the image within the quote section */
+#quote-img img {
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+/* Styling for the switch section within the sidebar */
+#sidebar #switch {
+    box-sizing: border-box;
+    width: 184px;
+    height: 51px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for text and links within the switch section */
+#switch p,
+#switch a {
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/* Styling for the details section within the sidebar */
+#sidebar #details {
+    padding: 0;
+    width: 170px;
+    height: 96px;
+    margin-bottom: 38px;
+}
+
+/* Styling for the unordered list within the details section */
+#details ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for list items within the unordered list */
+#details ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 170px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Styling for the marker before each list item */
+#details ul li::before {
+    content: "";
+    background-image: url('/img/Combined Shape.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Styling for strong elements within list items */
+li strong {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Styling for the plan section within the sidebar */
+#sidebar #plan {
+    width: 231px;
+    height: 152px;
+    padding: 0;
+    margin-bottom: 36px;
+}
+
+/* Styling for headings within the plan section */
+#plan h2 {
+    margin: 0;
+    width: 93px;
+    font-size: 20px;
+    letter-spacing: -0.01px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/* Styling for the main heading within the plan section */
+#plan h1 {
+    height: 72px;
+    width: 140px;
+    margin: 0;
+}
+
+/* Styling for superscript within the main heading */
+#plan h1 sup {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+/* Styling for the span within the main heading */
+#plan h1 span {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+/* Styling for the sub within the main heading */
+#plan h1 sub {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+/* Styling for paragraphs within the plan section */
+#plan p {
+    display: block;
+    width: 150px;
+    font-size: 16px;
+    letter-spacing: -0.01px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0;
+    height: 48px;
+}
+
+/* Styling for the footer section */
+#footer {
+    display: flex;
+}
+
+/* Styling for strong elements within the footer */
+#footer strong {
+}
+
+/* Styling for links within the footer */
+#footer > a {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    color: #31708f;
+    font-weight: 400;
+}
